@@ -32,7 +32,10 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <sonar.host.url>http://10.76.101.81:9000</sonar.host.url>
+                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+                <sonar.projectKey>YonitLopatinski_sonar-integration</sonar.projectKey>
+                <sonar.organization>yonitlopatinski-github</sonar.organization>
+                <sonar.login>9647caee221129e8b5a66ceb3a496b45fe9d33a3</sonar.login>
             </properties>
         </profile>
     </profiles>
@@ -73,6 +76,16 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

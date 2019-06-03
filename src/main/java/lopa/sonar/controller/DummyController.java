@@ -15,7 +15,7 @@ public class DummyController {
     private String version;
 
     @GetMapping()
-    private Map<String, String> getVersion() {
+    public Map<String, String> getVersion() {
         Map<String, String> result = new HashMap<>();
         result.put("version", version);
         return result;
