@@ -1,5 +1,7 @@
-# sonar-cloud-integration-with-GitHub
-<img src="./sonar-cloud.png" width="120"/>
+
+<img src="./sonar-cloud.png" width="250"/>
+
+# Integration-With-GitHub
 
 
 [![Quality Gates](https://sonarcloud.io/api/project_badges/measure?project=YonitLopatinski_sonar-integration&metric=alert_status)](https://sonarcloud.io/api/project_badges/measure?project=YonitLopatinski_sonar-integration&metric=alert_status)
